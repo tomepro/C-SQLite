@@ -21,3 +21,8 @@ Este proyecto en C++ utiliza SQLite para gestionar una base de datos de usuarios
 7. **Esperar al Usuario**: Antes de cerrar la base de datos, el programa solicita al usuario que presione Enter para finalizar, lo que permite revisar los resultados.
 
 8. **Cierre de la Base de Datos**: Finalmente, se cierra la conexión a la base de datos.
+
+
+## Como ejecutar el Código
+
+g++ main.cpp -o app -I. -lsqlite3
