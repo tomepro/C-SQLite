@@ -25,4 +25,4 @@ Este proyecto en C++ utiliza SQLite para gestionar una base de datos de usuarios
 
 ## Como ejecutar el Código
 
-g++ main.cpp -o app -I. -lsqlite3
+`g++ main.cpp -o app -I. -lsqlite3`
